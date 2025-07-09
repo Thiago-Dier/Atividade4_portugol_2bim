@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real cidadeA, cidadeB, taxaA, taxaB
+		
+		inteiro anos = 0
+
+		escreva("Informe a população da cidade A ")
+		leia(cidadeA)
+
+		escreva("Informe a população da cidade B ")
+		leia(cidadeB)
+
+		escreva("Informe a taxa de crescimento da cidade A ")
+		leia(taxaA)
+
+		escreva("Informe a taxa de crescimento da cidade B ")
+		leia(taxaB)
+
+		enquanto (cidadeB > cidadeA){
+			cidadeA = cidadeA * (1+taxaA)
+			cidadeB = cidadeB * (1+taxaB)
+			anos++
+		}
+
+		escreva ("Vai demorar ", anos, " anos para ultrapassar a população da cidade B")
+		
+	}
+}
