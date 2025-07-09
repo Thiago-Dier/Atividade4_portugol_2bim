@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real cidadeA = 80000.0
+		real cidadeB = 200000.0
+		real taxaA = 0.03
+		real taxaB = 0.015
+		inteiro anos = 0
+
+		enquanto (cidadeB > cidadeA){
+			cidadeA = cidadeA * (1+taxaA)
+			cidadeB = cidadeB * (1+taxaB)
+			anos++
+		}
+
+		escreva ("Vai demorar ", anos, " anos para ultrapassar a população da cidade B")
+		
+	}
+}
