@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro N
+		escreva("Informe um número ")
+		leia(N)
+
+		escreva ("Contagem de 1 até ", N, " : \n")
+		para(inteiro i=1; i <= N; i++){
+			escreva(i, "\n")
+		}
+
+		escreva ("\n\n\n")
+
+		escreva ("Contagem de ", N, " até 1 : ")
+		para(inteiro i= N; i >= 1; i--){
+			escreva(i, "\n")
+
+		}
+	}
+}
