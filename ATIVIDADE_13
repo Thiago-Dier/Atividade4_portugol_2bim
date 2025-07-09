@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero = 0
+		inteiro contador = 0
+		inteiro soma = 0
+		inteiro media = 0
+
+		enquanto (contador != 5){
+			escreva("Informe um número ")
+			leia (numero)
+			soma += numero
+			contador ++
+			
+		}
+
+		escreva("A soma dos números é ", soma, "\n")
+		media = soma / 5
+		escreva("A média dos números é ", media)
+	}
+}
