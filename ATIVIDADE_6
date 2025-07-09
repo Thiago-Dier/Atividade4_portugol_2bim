@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1, n2
+		escreva("Informe o primeiro número ")
+		leia (n1)
+
+		escreva("Informe o segundo número ")
+		leia (n2)
+
+		para(inteiro i=n1+1; i < n2; i++){
+			escreva(i, "\n")
+
+		}
+
+		
+	}
+}
