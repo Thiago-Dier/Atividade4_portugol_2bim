@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numeros[10]
+		inteiro pares = 0
+		inteiro impares = 0
+
+		para(inteiro i=0; i < 10; i++){
+			escreva ("Digite o ", i+1, "° número ")
+			leia (numeros[i])
+		}
+
+		para(inteiro i=0; i < 10; i++){
+			se (numeros[i] % 2 == 0){
+				pares += 1
+			}
+
+			senao {
+				impares += 1
+			}
+		}
+
+		escreva ("Temos ", pares, " número(s) par(es)\n")
+		escreva ("Temos ", impares, " número(s) impar(es)")
+	}
+}
