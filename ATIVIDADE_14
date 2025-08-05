@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero
+		escreva ("Qual número você quer saber a tabuada? ")
+		leia (numero)
+
+		inteiro tabuada = 0
+		enquanto (tabuada <= 10){
+			escreva (numero, " x ", tabuada, " = ", numero*tabuada, "\n")
+			tabuada++
+		}
+	}
+}
