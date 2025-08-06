@@ -1,0 +1,39 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+
+		inteiro numero, maior, menor, soma
+		inteiro n
+		escreva ("Quantos números você quer? ")
+		leia (n)
+
+		escreva ("Digite o primeiro número ")
+		leia (numero)
+		menor = numero
+		maior = numero
+		soma = numero
+
+		para(inteiro i=2; i <= n; i++){
+			escreva ("Digite o próximo número ")
+			leia (numero)
+
+			se ( numero < menor ){
+				menor = numero
+			}
+
+			se ( numero > maior ){
+				maior = numero
+			}
+
+			soma += numero
+
+		}
+
+		escreva ("Maior número : ", maior, "\n")
+		escreva ("Menor número : ", menor, "\n")
+		escreva ("Soma : ", soma)
+	}
+}
