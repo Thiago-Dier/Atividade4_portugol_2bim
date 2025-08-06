@@ -1,0 +1,26 @@
+programa
+{
+
+	funcao inicio() {
+
+		inteiro i, t1 = 0, t2 = 1, t3, n = 0
+		escreva ("Quantos termos de fibonacci você quer descobrir? ")
+		leia (n)
+		
+		para (i = 0; i < n; i++) {
+			se (i == 0) {
+				t3 = t1 + t2
+				t1 = 0
+				t2 = 1
+				escreva(t3, " => ")
+			}
+			senao {
+				t3 = t1 + t2
+				t1 = t2
+				t2 = t3
+				escreva(t3, " => ")
+			}
+			
+		}
+	}
+}
