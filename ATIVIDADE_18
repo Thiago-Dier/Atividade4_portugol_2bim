@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+
+		inteiro fatorial = 1
+		inteiro num
+		escreva ("Qual número você quer? ")
+		leia (num)
+
+		se ( num == 0 ){
+			escreva ("Esse número não possui forma fatorial")
+		}
+
+		  senao {
+      		para (inteiro i = 1; i <= num; i++) {
+        		fatorial = fatorial * i
+          }
+
+          escreva ("O fatorial de ", num, " é ", fatorial)
+
+		  }
+	}
+}
+
