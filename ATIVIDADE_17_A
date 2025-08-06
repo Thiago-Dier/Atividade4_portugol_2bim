@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+  inteiro termo1, termo2, proximoTermo 
+  
+  termo1 = 0
+  termo2 = 1
+  
+  escreva("Série de Fibonacci até 500:\n")
+  
+  enquanto (termo1 <= 500){ 
+    escreva(termo1, " ")
+    proximoTermo = termo1 + termo2
+    termo1 = termo2
+    termo2 = proximoTermo
+    
+ 	   }
+	  }
+	 }
